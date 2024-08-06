@@ -1,0 +1,14 @@
+database
+
+Oracle database>=12C
+
+It upgraded to Container database
+Metadata is data about data which exists in root database 
+inside container database
+     |
+  root database cdb$root - common system tablespace
+  seed database
+  pluggable database - Own tablespace refers to roots tablespace
+  
+  Tablespace contains datafiles
+  
